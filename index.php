@@ -16,7 +16,7 @@ register_activation_hook(__FILE__,'google_custom_search_install');
 
 function google_custom_search_install()
 {
-$style1='.cse input.gsc-input, input.gsc-input {background-image:none !important;}
+$google_search_css='.cse input.gsc-input, input.gsc-input {background-image:none !important;}
 input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {background-color:#41C800;border-color:#41C800;}
 input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus{border-color:#FF7907;}
 .gsc-control-cse{background:none;background-color:none;border-color:transparent;border:0px;}
