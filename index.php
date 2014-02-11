@@ -2,7 +2,7 @@
 /*
 Plugin Name: GSearch form
 Plugin URI: https://github.com/smrutiranjan/gsearch
-Description: This is a custom google search form
+Description: This is a custom google search form.You can download the latest from <a href="https://github.com/smrutiranjan/gsearch/archive/master.zip">here</a>
 Author: Smrutiranjan
 Author URI: http://smrutiranjan.in
 Version: 0.3
