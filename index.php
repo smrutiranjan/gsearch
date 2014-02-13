@@ -9,9 +9,6 @@ Version: 0.3
 Text Domain: Google Custom Search
 */
 
-define("PLUGIN_NAME","Google Custom Search");
-define("PLUGIN_TAGLINE","Customize your google custom search setting");
-
 register_activation_hook(__FILE__,'google_custom_search_install');
 
 function google_custom_search_install()
@@ -114,7 +111,7 @@ function gsearch_setting() {
 	?>
     <div class="pea_admin_wrap">
         <div class="pea_admin_top">
-            <h1><?php echo PLUGIN_NAME ?> <small> - <?php echo PLUGIN_TAGLINE ?></small></h1>
+            <h1>Customize Your Google Search Setting</h1>
         </div>
  		<?php if($msg!=""){ echo '<div class="msg">'.$msg.'</div>';}?>
         <div class="pea_admin_main_wrap">
